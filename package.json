@@ -1,0 +1,14 @@
+{
+  "name": "device-orientation-controls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DeviceOrientationControls.js",
+  "scripts": {
+    "build": "./node_modules/.bin/uglifyjs index.js --compress -o DeviceOrientationControls.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^2.6.1"
+  }
+}
